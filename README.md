@@ -1,48 +1,80 @@
-# 🐍 exercicios-python
+<div align="center">
 
-Exercícios e desafios práticos desenvolvidos durante meus estudos de lógica de programação e Python.
-Cada pasta reúne exercícios de um mesmo tema, com nomes de arquivo padronizados em `snake_case`.
+# 🐍 Exercícios de Python
 
-## 📁 Estrutura
+**Exercícios práticos de lógica de programação em Python, organizados por tema.**
+
+![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?logo=python&logoColor=white)
+![Status](https://img.shields.io/badge/status-em%20andamento-brightgreen)
+![Exercícios](https://img.shields.io/badge/exerc%C3%ADcios-7-blue)
+
+</div>
+
+---
+
+## 📖 Sobre
+
+Este repositório reúne os exercícios que desenvolvo durante meus estudos de Python.
+Cada módulo fica em uma pasta numerada, na ordem em que os temas foram estudados, e todos os arquivos seguem o mesmo padrão:
+
+- nomes em `snake_case`;
+- código no estilo [PEP 8](https://peps.python.org/pep-0008/);
+- docstring explicando o objetivo do exercício;
+- função `main()` com `if __name__ == '__main__'`.
+
+## 🗂️ Estrutura
 
 ```
 exercicios-python/
-└── condicionais/
-    ├── alistamento_militar.py
-    ├── conversor_bases.py
-    ├── entrada_no_brinquedo.py
-    ├── formacao_de_triangulo.py
-    ├── jogo_de_adivinhacao.py
-    ├── limite_de_velocidade.py
-    └── prestacao_mensal.py
+├── 01_condicionais/
+│   ├── alistamento_militar.py
+│   ├── conversor_bases.py
+│   ├── entrada_no_brinquedo.py
+│   ├── formacao_de_triangulo.py
+│   ├── jogo_de_adivinhacao.py
+│   ├── limite_de_velocidade.py
+│   └── prestacao_mensal.py
+├── .gitignore
+└── README.md
 ```
 
-## 🔀 condicionais/
+## 🔀 01 · Condicionais
 
-Exercícios focados em estruturas de decisão (`if`, `elif`, `else`) e operadores lógicos.
+Estruturas de decisão (`if`, `elif`, `else`) e operadores lógicos.
 
-| Exercício | Descrição | Conceitos |
-|---|---|---|
-| [`alistamento_militar.py`](condicionais/alistamento_militar.py) | Calcula a idade a partir do ano de nascimento e informa se a pessoa deve se alistar agora, quantos anos faltam ou há quantos anos passou do prazo. | `if/elif/else`, `datetime` |
-| [`conversor_bases.py`](condicionais/conversor_bases.py) | Converte um número inteiro para binário, octal ou hexadecimal, conforme a opção escolhida em um menu. | `if/elif/else`, `bin()`, `oct()`, `hex()`, fatiamento de strings |
-| [`entrada_no_brinquedo.py`](condicionais/entrada_no_brinquedo.py) | Verifica se a pessoa pode entrar em um brinquedo com altura mínima de 1,40 m. | `if/else`, `float` |
-| [`formacao_de_triangulo.py`](condicionais/formacao_de_triangulo.py) | Verifica se três medidas podem formar um triângulo (desigualdade triangular). | `if/else`, operador `and` |
-| [`jogo_de_adivinhacao.py`](condicionais/jogo_de_adivinhacao.py) | O computador sorteia um número de 0 a 5 e o jogador tenta adivinhar. | `random.randint`, `time.sleep`, `if/else` |
-| [`limite_de_velocidade.py`](condicionais/limite_de_velocidade.py) | Verifica se um veículo ultrapassou o limite de 80 km/h. | `if/else`, comparação numérica |
-| [`prestacao_mensal.py`](condicionais/prestacao_mensal.py) | Calcula a prestação mensal de um imóvel e aprova o empréstimo se ela não passar de 30% do salário, validando o prazo informado. | `if/else` aninhados, cálculos financeiros |
+| # | Exercício | O que faz | Conceitos |
+|:-:|---|---|---|
+| 1 | [Entrada no brinquedo](01_condicionais/entrada_no_brinquedo.py) | Verifica se a pessoa tem a altura mínima de 1,40 m. | `if/else`, `float` |
+| 2 | [Limite de velocidade](01_condicionais/limite_de_velocidade.py) | Verifica se o veículo passou de 80 km/h. | `if/else`, constantes |
+| 3 | [Jogo de adivinhação](01_condicionais/jogo_de_adivinhacao.py) | O computador sorteia um número de 0 a 5 e o jogador tenta acertar. | `random`, `time` |
+| 4 | [Formação de triângulo](01_condicionais/formacao_de_triangulo.py) | Diz se três medidas formam um triângulo. | operador `and` |
+| 5 | [Alistamento militar](01_condicionais/alistamento_militar.py) | Informa se é hora de se alistar, quanto falta ou quanto passou. | `if/elif/else`, `datetime` |
+| 6 | [Prestação mensal](01_condicionais/prestacao_mensal.py) | Aprova o empréstimo se a prestação não passar de 30% do salário. | `if` aninhado, validação |
+| 7 | [Conversor de bases](01_condicionais/conversor_bases.py) | Converte um inteiro para binário, octal ou hexadecimal. | `if/elif/else`, `format()` |
 
-## ▶️ Como executar
+## 🚀 Como executar
 
-Requer **Python 3**.
+Pré-requisito: [Python 3.8+](https://www.python.org/downloads/).
 
 ```bash
 git clone https://github.com/Henrique-Soares801/exercicios-python.git
 cd exercicios-python
-python condicionais/alistamento_militar.py
+python 01_condicionais/alistamento_militar.py
 ```
 
-Todos os exercícios são interativos e recebem os dados pelo terminal via `input()`.
+Todos os exercícios são interativos: os dados são digitados no terminal.
 
-## 📌 Origem
+## 🛣️ Próximos módulos
 
-Estes exercícios foram consolidados a partir de repositórios individuais criados anteriormente, reunindo todo o histórico de estudos em um só lugar.
+- [x] 01 · Condicionais
+- [ ] 02 · Laços de repetição
+- [ ] 03 · Listas, tuplas e dicionários
+- [ ] 04 · Funções
+
+---
+
+<div align="center">
+
+Feito por [Henrique Soares](https://github.com/Henrique-Soares801)
+
+</div>
