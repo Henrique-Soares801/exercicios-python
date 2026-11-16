@@ -6,7 +6,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?logo=python&logoColor=white)
 ![Status](https://img.shields.io/badge/status-em%20andamento-brightgreen)
-![Exercícios](https://img.shields.io/badge/exerc%C3%ADcios-7-blue)
+![Exercícios](https://img.shields.io/badge/exerc%C3%ADcios-8-blue)
 
 </div>
 
@@ -31,6 +31,7 @@ exercicios-python/
 │   ├── conversor_bases.py
 │   ├── entrada_no_brinquedo.py
 │   ├── formacao_de_triangulo.py
+│   ├── gerenciador_de_pagamentos.py
 │   ├── jogo_de_adivinhacao.py
 │   ├── limite_de_velocidade.py
 │   └── prestacao_mensal.py
@@ -51,6 +52,7 @@ Estruturas de decisão (`if`, `elif`, `else`) e operadores lógicos.
 | 5 | [Alistamento militar](01_condicionais/alistamento_militar.py) | Informa se é hora de se alistar, quanto falta ou quanto passou. | `if/elif/else`, `datetime` |
 | 6 | [Prestação mensal](01_condicionais/prestacao_mensal.py) | Aprova o empréstimo se a prestação não passar de 30% do salário. | `if` aninhado, validação |
 | 7 | [Conversor de bases](01_condicionais/conversor_bases.py) | Converte um inteiro para binário, octal ou hexadecimal. | `if/elif/else`, `format()` |
+| 8 | [Gerenciador de pagamentos](01_condicionais/gerenciador_de_pagamentos.py) | Simula o caixa de uma loja: aplica desconto ou juros conforme a forma de pagamento. | `if/elif/else` aninhados, percentuais |
 
 ## 🚀 Como executar
 
