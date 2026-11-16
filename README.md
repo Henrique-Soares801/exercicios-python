@@ -2,11 +2,11 @@
 
 # 🐍 Exercícios de Python
 
-**Exercícios práticos de lógica de programação em Python, organizados por tema.**
+**Meu caderno de estudos em Python: problemas do dia a dia resolvidos com código, um tema de cada vez.**
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?logo=python&logoColor=white)
-![Status](https://img.shields.io/badge/status-em%20andamento-brightgreen)
-![Exercícios](https://img.shields.io/badge/exerc%C3%ADcios-8-blue)
+![Python](https://img.shields.io/badge/Python-3-3776AB?logo=python&logoColor=white)
+![Módulo atual](https://img.shields.io/badge/m%C3%B3dulo%20atual-condicionais-orange)
+![Último commit](https://img.shields.io/github/last-commit/Henrique-Soares801/exercicios-python?label=%C3%BAltima%20atualiza%C3%A7%C3%A3o&color=brightgreen)
 
 </div>
 
@@ -14,13 +14,15 @@
 
 ## 📖 Sobre
 
-Este repositório reúne os exercícios que desenvolvo durante meus estudos de Python.
-Cada módulo fica em uma pasta numerada, na ordem em que os temas foram estudados, e todos os arquivos seguem o mesmo padrão:
+Este repositório registra minha evolução em Python como estudante de Ciência de Dados.
+Cada exercício parte de uma situação real, como calcular uma prestação, aplicar um desconto no caixa ou checar um limite de velocidade, e a transforma em um pequeno programa interativo.
 
-- nomes em `snake_case`;
-- código no estilo [PEP 8](https://peps.python.org/pep-0008/);
-- docstring explicando o objetivo do exercício;
-- função `main()` com `if __name__ == '__main__'`.
+**O que você encontra aqui:**
+
+- 🧩 **Problemas práticos:** cada exercício resolve uma situação concreta do cotidiano.
+- 📚 **Organização por tema:** as pastas são numeradas na ordem em que estudei cada assunto.
+- 📝 **Código comentado:** todo arquivo começa explicando o que o programa faz e o que ele pratica.
+- ▶️ **Pronto para rodar:** basta ter o Python instalado, sem nenhuma biblioteca extra.
 
 ## 🗂️ Estrutura
 
