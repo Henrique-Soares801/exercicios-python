@@ -53,7 +53,7 @@ Estruturas de decisão (`if`, `elif`, `else`) e operadores lógicos.
 | 4 | [Formação de triângulo](01_condicionais/formacao_de_triangulo.py) | Diz se três medidas formam um triângulo. | operador `and` |
 | 5 | [Alistamento militar](01_condicionais/alistamento_militar.py) | Informa se é hora de se alistar, quanto falta ou quanto passou. | `if/elif/else`, `datetime` |
 | 6 | [Prestação mensal](01_condicionais/prestacao_mensal.py) | Aprova o empréstimo se a prestação não passar de 30% do salário. | `if` aninhado, validação |
-| 7 | [Conversor de bases](01_condicionais/conversor_bases.py) | Converte um inteiro para binário, octal ou hexadecimal. | `if/elif/else`, `format()` |
+| 7 | [Conversor de bases](01_condicionais/conversor_bases.py) | Converte um inteiro para binário, octal ou hexadecimal. | `if/elif/else`, `bin()`, `oct()`, `hex()` |
 | 8 | [Gerenciador de pagamentos](01_condicionais/gerenciador_de_pagamentos.py) | Simula o caixa de uma loja: aplica desconto ou juros conforme a forma de pagamento. | `if/elif/else` aninhados, percentuais |
 
 ## 🚀 Como executar

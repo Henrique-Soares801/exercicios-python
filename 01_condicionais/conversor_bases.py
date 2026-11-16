@@ -6,10 +6,10 @@ base = int(input(' Escolha Qual Será a Base de Conversão:\n'
                  'Sua Opção: '))
 
 if base == 1:
-    print(f' Você Escolheu Converter Para Binário o Número {num} em Binário é {format(num, "b")} ')
+    print(f' Você Escolheu Converter Para Binário o Número {num} em Binário é {bin(num)[2:]} ')
 elif base == 2:
-    print(f' Você Escolheu Converter Para Octal o Número {num} em Octal é {format(num, "o")} ')
+    print(f' Você Escolheu Converter Para Octal o Número {num} em Octal é {oct(num)[2:]} ')
 elif base == 3:
-    print(f' Você Escolheu Converter Para HexaDecimal o Número {num} em HexaDecimal é {format(num, "x")} ')
+    print(f' Você Escolheu Converter Para HexaDecimal o Número {num} em HexaDecimal é {hex(num)[2:]} ')
 else:
     print(' Opção Inválida Tente Novamente!')
