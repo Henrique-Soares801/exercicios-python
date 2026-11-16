@@ -1,32 +1,17 @@
-"""Prestação mensal.
+casa = float(input('Qual o valor da casa? R$ '))
+salar = float(input('Qual o seu salário mensal? R$ '))
+ano = int(input('Em quantos anos você pretende pagar? '))
 
-Calcula a prestação mensal para a compra de uma casa e aprova o
-empréstimo somente se ela não ultrapassar 30% do salário.
+if ano > 0:
+    prazo = ano * 12
+    prestacaomensal = casa / prazo
+    limite = salar * (30 / 100)
 
-Conceitos: if/else aninhados, validação de entrada.
-"""
-
-PERCENTUAL_MAXIMO = 0.30
-
-
-def main() -> None:
-    valor_casa = float(input('Qual é o valor da casa? R$ '))
-    salario = float(input('Qual é o seu salário mensal? R$ '))
-    anos = int(input('Em quantos anos você pretende pagar? '))
-
-    if anos > 0:
-        prestacao = valor_casa / (anos * 12)
-        limite = salario * PERCENTUAL_MAXIMO
-
-        if prestacao <= limite:
-            print('Empréstimo aprovado!')
-        else:
-            print('Empréstimo negado!')
-
-        print(f'Sua prestação mensal ficará em R$ {prestacao:.2f}.')
+    if prestacaomensal <= limite:
+        print('Empréstimo aprovado!')
     else:
-        print('O prazo precisa ser maior que zero!')
+        print('Empréstimo negado!')
 
-
-if __name__ == '__main__':
-    main()
+    print(f'Sua prestação mensal ficará em R$ {prestacaomensal:.2f}')
+else:
+    print('O prazo precisa ser maior que zero!')
