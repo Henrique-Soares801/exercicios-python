@@ -2,7 +2,7 @@
 
 # 🐍 Exercícios de Python
 
-**Meu caderno de estudos em Python: problemas do dia a dia resolvidos com código, um tema de cada vez.**
+**Situações do dia a dia transformadas em código: exercícios práticos que registram minha evolução em Python.**
 
 ![Python](https://img.shields.io/badge/Python-3-3776AB?logo=python&logoColor=white)
 ![Módulo atual](https://img.shields.io/badge/m%C3%B3dulo%20atual-condicionais-orange)
