@@ -58,15 +58,47 @@ Estruturas de decisão (`if`, `elif`, `else`) e operadores lógicos.
 
 ## 🚀 Como executar
 
-Pré-requisito: [Python 3.8+](https://www.python.org/downloads/).
+**1. Instale o Python**
+
+Baixe a versão mais recente em [python.org/downloads](https://www.python.org/downloads/). No Windows, marque a opção **"Add Python to PATH"** durante a instalação.
+
+**2. Baixe os exercícios**
+
+Clone o repositório pelo terminal:
 
 ```bash
 git clone https://github.com/Henrique-Soares801/exercicios-python.git
 cd exercicios-python
-python 01_condicionais/alistamento_militar.py
 ```
 
-Todos os exercícios são interativos: os dados são digitados no terminal.
+Ou, sem usar o Git, clique no botão verde **Code → Download ZIP** no topo desta página e extraia a pasta.
+
+**3. Rode o exercício que quiser**
+
+```bash
+python 01_condicionais/gerenciador_de_pagamentos.py
+```
+
+Troque o nome do arquivo para executar qualquer outro exercício da tabela acima.
+
+**4. Interaja pelo terminal**
+
+Os programas fazem perguntas e respondem na hora. Exemplo:
+
+```
+Quanto foi o valor das compras? R$ 1500
+FORMAS DE PAGAMENTO:
+[1] À vista dinheiro/cheque
+[2] À vista cartão
+[3] 2x no cartão
+[4] 3x ou mais no cartão
+Qual opção? 4
+Em quantas parcelas? 10
+Sua compra será parcelada em 10x de R$ 180.00 COM JUROS.
+Sua compra de R$ 1500.00 vai custar R$ 1800.00 no final.
+```
+
+> 💡 Se o comando `python` não for reconhecido no Windows, use `py` no lugar dele.
 
 ## 🛣️ Próximos módulos
 
