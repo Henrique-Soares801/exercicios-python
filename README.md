@@ -35,6 +35,7 @@ exercicios-python/
 │   ├── formacao_de_triangulo.py
 │   ├── gerenciador_de_pagamentos.py
 │   ├── jogo_de_adivinhacao.py
+│   ├── jokenpo.py
 │   ├── limite_de_velocidade.py
 │   └── prestacao_mensal.py
 ├── .gitignore
@@ -55,6 +56,7 @@ Estruturas de decisão (`if`, `elif`, `else`) e operadores lógicos.
 | 6 | [Prestação mensal](01_condicionais/prestacao_mensal.py) | Aprova o empréstimo se a prestação não passar de 30% do salário. | `if` aninhado, validação |
 | 7 | [Conversor de bases](01_condicionais/conversor_bases.py) | Converte um inteiro para binário, octal ou hexadecimal. | `if/elif/else`, `bin()`, `oct()`, `hex()` |
 | 8 | [Gerenciador de pagamentos](01_condicionais/gerenciador_de_pagamentos.py) | Simula o caixa de uma loja: aplica desconto ou juros conforme a forma de pagamento. | `if/elif/else` aninhados, percentuais |
+| 9 | [Jokenpô](01_condicionais/jokenpo.py) | Pedra, papel e tesoura contra o computador, com contagem "JO... KEN... PO!!!" antes do resultado. | `if` aninhado, tuplas, `random`, `time` |
 
 ## 🚀 Como executar
 
